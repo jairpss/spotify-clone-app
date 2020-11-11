@@ -1,0 +1,21 @@
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    color:#B3B3B3;
+    font-size: 14px;
+    height: 40px;
+    cursor: pointer;
+    transition: 180ms color ease-in;
+}
+
+h4{
+    font-weight: 600;
+}
+
+.sidebarOption:hover{
+    color: #fff;
+}
+
+.sidebarOption__icon{
+    padding: 0 10px;
+}
