@@ -3,7 +3,12 @@
     flex: 0.8;
     height: 100vh;
     color: #f1f1f1;
+    overflow-y: overlay;
     background: linear-gradient(rgb(69, 74,99), rgba(18, 18, 18, 1));
+}
+
+.body::-webkit-scrollbar{
+    display: none;
 }
 
 .body__info{
@@ -25,6 +30,9 @@
 .body__icons{
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #616161;
+    margin: 0 20px 20px 20px;
+
 }
 
 .body__icons > .MuiSvgIcon-root{
@@ -41,8 +49,8 @@
 }
 
 .body__shuffle{
-    font-size: 80px !important;
-    margin: 20px 0 20px 50px;
+    font-size: 60px !important;
+    margin: 20px 0 20px 0;
     color: #1ED760 !important;
 }
 
